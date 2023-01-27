@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil • HBO Max</title>
+    <link rel="stylesheet" href="style_change.css">
+
+</head>
+
+<body onload="carregada()">
+    <header>
+        <!--banner-->
+        <img id="imagem" src="https://banqi.com.br/assets/img/uploads/logo-hbo.png" width="134px" height="22px"
+            alt="hbomax foto">
+    </header>
+    <!--fim-->
+    <section>
+        <div id="assistindo">Editar perfil</div>
+        <article>
+            <div class="usuarios">
+                <img id="imagem_perfil"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJVy4D2K8ZEYrTdI-uo_WQAjlTu-IP_wMf2g&usqp=CAU"
+                    width="170px" height="161px" alt="foto de usuario">
+
+                <br id="nome_perfil"> </br>
+
+                <img id="imagem_backg" src="background_1.webp" width="50px" height="50px" alt="foto background"
+                    onclick="trocar_1()">
+
+                <img id="imagem_backg2" src="background_2.webp" width="50px" height="50px" alt="foto background"
+                    onclick="trocar_2()">
+
+                <img id="imagem_backg3" src="background_3.webp" width="50px" height="50px" alt="foto background"
+                    onclick="trocar_3()">
+
+                <img id="imagem_backg4"
+                    src="https://www.teahub.io/photos/full/162-1621646_gif-wallpapers-hd-wallpapercraft-free-outer-space-background.gif"
+                    width="50px" height="50px" alt="foto background" onclick="trocar_4()">
+
+                <img id="imagem_backg5"
+                    src="https://i.pinimg.com/originals/1d/26/c5/1d26c5b022c071fb8f1e3ae2f0f65ba9.gif" width="50px"
+                    height="50px" alt="foto background" onclick="trocar_5()">
+            </div>
+            <img id="imagem_camera" src="camera.png" alt="camera foto">
+        </article>
+    </section>
+    <!--fim-->
+    <footer id="footer2">
+
+        <input type="text" placeholder="Novo nome" id="input_nome_perfil">
+        <p id="texto_strong"><strong>Digite um nome de úsuario.</p>
+    </footer>
+    <footer>
+        <button id="add_adulto" onclick="salvar()">SALVAR</button>
+        <button id="add_crianca" onclick="cancelar()">CANCELAR</button>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

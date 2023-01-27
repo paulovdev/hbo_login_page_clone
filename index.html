@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem está assistindo? • HBO Max</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="carregada()">
+    <!--banner-->
+    <header>
+        <img id="imagem" src="https://banqi.com.br/assets/img/uploads/logo-hbo.png" width="134px" height="22px"
+            alt="hbomax foto">
+    </header>
+    <!--fim-->
+    <section>
+        <div id="assistindo">Quem está assistindo?</div>
+        <article>
+            <div class="usuarios">
+                <img id="imagem_perfil" src="perfil_imagem.jpg" width="150px" height="141px" alt="foto de usuario">
+                <p id="nome_perfil"> </p>
+            </div>
+        </article>
+    </section>
+    <!--fim-->
+    <footer>
+        <button id="add_adulto" onclick="add()">ADICIONAR ADULTO</button>
+        <button id="add_crianca">ADICIONAR CRIANÇA</button>
+    </footer>
+    <footer id="footer2">
+        <div id="gerenciar_perfis" onclick="gerenciar_perfil()">GERENCIAR PERFIS</div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
